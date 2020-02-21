@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* body {
+    
+  } */
+
+
+.active{
+  color: white;
+}
+
+header {
+  background-color: #423737;
+  background-size: cover;
+  padding: 15px;
+}
+
+header nav {
+  padding-left: 27%;
+  
+}
+
+header ul li{
+  display: inline-block;
+  margin-right: 1.25%;
+}
+header ul li a{
+  text-decoration: none;
+  color: #e66864;
+}
+
+body{
+  background-color: #e2dbc8;
+}
+
+article header h1 {
+  margin-top: 10%;
+  color: gray;
+  font-size: 2em;
+  margin: 0%;
+}
+
+main article header h2 {
+  font-size: 1.25em;
+  color: red;
+  text-align: justify;
+  margin: 2%;
+}
+article section header h2 {
+  color: grey;
+}
+article figure img{
+  border: white 8px solid;
+}
+
+main, #main{
+  background-color: #e2dbc8;
+  width: 70%;
+  margin: 0 auto;
+  align-content: center;
+  text-align: justify;
+}
+
+article header p{
+  text-align: right;
+}
+
+figure img{
+  width: 700px;
+  height: auto;
+}
+
+main article header{
+  background-color: #e2dbc8;
+  text-align: center;
+}
+
+main p a{
+  color: red;
+  font-weight: bold;
+}
+
+main article h2{
+  color: rgb(107, 107, 107);
+  margin: 1.5% 0%;
+}
+
+main article p {
+  margin: 2.5% 0%;
+}
+
+main article h3{
+  color: rgb(107, 107, 107);
+  margin-top: 20%;
+  margin: 2.5% 0%;
+}
+
+main blockquote {
+  margin: 2% 0%;
+  color: red;
+  background-color: white;
+  border-color: black;
+  border-left: 3px solid grey;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+main blockquote p {
+  padding: 0.2% 5%;
+}
+main blockquote small{
+  color: black;
+  font-weight: normal;
+  font-size: 0.7em;
+}
+
+.profesores{
+  color: black;
+  font-weight: bold;
+}
+
+
+main article section{
+  text-align: justify;
+}
+.autor {
+  margin-left: 24%;
+}
+footer {
+  margin-top: 3%;
+  background-color: #596c68;
+  padding: 15px;
+}
+
+footer img{
+  margin-left: 25%;
+}
+
+article footer{
+  background-color: #e2dbc8;
+}
+
+aside{
+  background-color: white;
+  border-left: 3px solid grey;
+}
+
+aside p, aside h4{
+  padding: 2% 5%;
+}
+
+section ul li {
+  list-style-type: none;
+}
+
+section ul li ol li{
+  list-style-type: decimal;
+  margin-left: 5%;
+}
+
+article section dt {
+  color: red;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 2% 0%;
+}
+
+main article section dt p {
+  color: grey;
+  margin: 2% 0%;
+}
+
+
+i.fa-expand-alt{
+  color: red;
+}
+
+i.fa-cube{
+  color: blue;
+}
+
+span.ciudad {
+  color: #43504d;
+}
+
+i.fa-thumbs-up {
+  color: red;
+}
+
+i.fa-microchip{
+  color: blueviolet;
+}
+
+main article section dt a{
+  float: right;
+  text-decoration: none;
+  padding: 8px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: red;
+  border-radius: 6px;
+  border: 2px solid red;
+}
+
+.camara {
+    list-style-image: url(../img/camara.png);
+}
+
+
+.libro {
+    list-style-image: url(../img/libro-abierto.jpg);
+}
+
+
+.guias {
+    list-style-image: url(../img/guias.png);
+}
+
+.decimal {
+    list-style: decimal;
+}
